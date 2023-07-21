@@ -140,7 +140,7 @@ def ActualizarTabla():
 
         libros = cursor.fetchall()
         print("+{:-<20}+{:-<20}+{:-<10}+{:-<50}+{:-<10}+".format("", "", "", "", ""))
-        print("|{:^20}+{:^20}+{:^10}+{:^50}+{:^10        }+".format("Autor", "Genero", "Precio", "Titulo", "RowID"))
+        print("|{:^20}+{:^20}+{:^10}+{:^50}+{:^10}+".format("Autor", "Genero", "Precio", "Titulo", "RowID"))
         print("+{:-<20}+{:-<20}+{:-<10}+{:-<50}+{:-<10}+".format("", "", "", "", ""))
 
         for autor, genero, precio, titulo, rowid in libros:
